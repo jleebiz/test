@@ -2,7 +2,12 @@
 	echo "test";
 	echo "testing2";
 	
+
 	$branch = "master";
 	
-	echo $branch;
+	if($branch=="testing2"){
+		echo "difference";
+	}else{
+		echo "master";
+	}
 ?>
